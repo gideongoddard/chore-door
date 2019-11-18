@@ -23,10 +23,11 @@ body {
   .instructions-row {
     margin: 0 auto;
     width: 400px;
+    max-width: 100%;
   }
   
   .instructions-number {
-    padding-right: 25px;
+    padding: 0 10px;
     font-family: 'Work Sans';
     font-size: 36px;
     color: #00ffff;
@@ -51,13 +52,13 @@ body {
   .start-row {
     margin: auto;
     width: 120px;
-    height: 43px;
     font-family: 'Work Sans';
-    background-color: #eb6536;
-    padding-top: 18px;
+    background-color: #00ffff;
+    padding: 15px 0;
     font-size: 18px;
     text-align: center;
     color: #010165;
     margin-bottom: 21px;
     cursor: pointer;
+    border-radius: 3px;
   }

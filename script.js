@@ -106,7 +106,7 @@ randomChoreDoorGenerator();
 // Function to manage the game over conditions
 let gameOver = status => {
     if (status == 'win') {
-        startButton.innerHTML = "You win! Play again?";
+        startButton.innerHTML = "You win!<br>Play again?";
     } else {
         startButton.innerHTML = "Game over! Play again?"
     };
